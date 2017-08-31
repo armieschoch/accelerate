@@ -46,3 +46,34 @@
   color: #45ac9d;
   text-transform: uppercase;
 }
+
+/*Case Studies*/
+aside.case-study-sidebar {
+  float: left;
+  width: 380px;
+  text-align: justify;
+  word-spacing: 0.1em;
+  letter-spacing: 0.02em;
+  margin-right: 50px;
+}
+aside.case-study-sidebar .subtitle {
+  font: 12px !important;
+  color: #ccc;
+  margin: 15px 0 0;
+}
+aside.case-study-sidebar h6 {
+  margin: 15px 0 0;
+}
+aside.case-study-sidebar h2 {
+  line-height: 0.01em;
+  margin: 150px 0 0;
+}
+div.case-study-images {
+  float: left;
+}
+div.case-study-images img {
+  display: block;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  max-width: 80%;
+}
