@@ -50,8 +50,8 @@
 /*Case Studies*/
 aside.case-study-sidebar {
   float: left;
-  width: 380px;
-  text-align: justify;
+  width: 300px;
+  text-align: left;
   word-spacing: 0.1em;
   letter-spacing: 0.02em;
   margin-right: 50px;
@@ -70,10 +70,11 @@ aside.case-study-sidebar h2 {
 }
 div.case-study-images {
   float: left;
+  margin: 0;
 }
 div.case-study-images img {
   display: block;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   border: 1px solid #dddddd;
   max-width: 80%;
 }
