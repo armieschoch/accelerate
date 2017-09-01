@@ -12,6 +12,7 @@
 
 
 @import url("../accelerate-theme/style.css");
+@import url("../accelerate-theme-child/single-posts.css")
 
 /* HOMEPAGE STYLES */
 .home-page {
