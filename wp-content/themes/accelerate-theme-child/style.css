@@ -38,8 +38,6 @@ div.blog-post {
 
 .blog-post h3 {
   font-size: 1.5em;
-  margin: 5px;
-  padding: 0;
 }
 
 .read-more-link {
@@ -78,20 +76,30 @@ div.case-study-images img {
   display: block;
   margin: 0 0 20px;
   border: 1px solid #dddddd;
-  max-width: 80%;
+  max-width: 100%;
+  height: auto;
 }
-
+/*section.featured-work h4 {
+  text-align: center;
+  text-transform: uppercase;
+}*/
+.featured-work .site-content {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+}
 ul.homepage-featured-work {
   list-style: none;
-  margin: 17px;
 }
-
+li.individual-featured-work h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: 300;
+}
 li.individual-featured-work {
   float: left;
   padding: 0 10px;
   max-width: 33%;
   display: inline-block;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
