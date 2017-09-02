@@ -12,7 +12,6 @@
 
 
 @import url("../accelerate-theme/style.css");
-@import url("../accelerate-theme-child/single-posts.css")
 
 /* HOMEPAGE STYLES */
 .home-page {
@@ -39,6 +38,8 @@ div.blog-post {
 
 .blog-post h3 {
   font-size: 1.5em;
+  margin: 5px;
+  padding: 0;
 }
 
 .read-more-link {
@@ -80,28 +81,17 @@ div.case-study-images img {
   max-width: 80%;
 }
 
-.featured-work h4 {
-  text-align: center;
-}
 ul.homepage-featured-work {
   list-style: none;
   margin: 17px;
 }
-/*li.individual-featured-work figure, img {
-  float: left;
-  margin: 0
-  display: inline-block;
-}*/
+
 li.individual-featured-work {
   float: left;
-  /*margin: 10px 5px 0;*/
   padding: 0 10px;
   max-width: 33%;
   display: inline-block;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-li.individual-featured-work h4{
-  text-align: center;
 }
