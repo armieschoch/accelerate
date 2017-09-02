@@ -24,9 +24,9 @@
 }
 
 /*Blog Post styles*/
-.blog-post {
+div.blog-post {
   width: 50%;
-  float: left;
+  /*float: left;*/
   margin-bottom: 2em;
 }
 
@@ -78,4 +78,30 @@ div.case-study-images img {
   margin: 0 0 20px;
   border: 1px solid #dddddd;
   max-width: 80%;
+}
+
+.featured-work h4 {
+  text-align: center;
+}
+ul.homepage-featured-work {
+  list-style: none;
+  margin: 17px;
+}
+/*li.individual-featured-work figure, img {
+  float: left;
+  margin: 0
+  display: inline-block;
+}*/
+li.individual-featured-work {
+  float: left;
+  /*margin: 10px 5px 0;*/
+  padding: 0 10px;
+  max-width: 33%;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+li.individual-featured-work h4{
+  text-align: center;
 }
