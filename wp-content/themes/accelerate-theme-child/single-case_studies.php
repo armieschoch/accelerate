@@ -27,7 +27,7 @@ get_header(); ?>
 
 							<?php the_content(); ?>
 							<p class="read-more-link"><strong><a href="<?php echo $link; ?>">Visit Live Site</a></strong></p>
-							
+
 					</aside>
 		</article>
 
