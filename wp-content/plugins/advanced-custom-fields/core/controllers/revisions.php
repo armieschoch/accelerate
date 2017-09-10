@@ -151,6 +151,7 @@ class acf_revisions
 
 				// load value
 				add_filter('_wp_post_revision_field_' . $field['name'], array($this, 'wp_post_revision_field'), 10, 4);
+<<<<<<< HEAD
 				
 				
 				// WP 3.5: left vs right
@@ -162,6 +163,8 @@ class acf_revisions
 					$left_revision->$field['name'] = 'revision_id=' . $_GET['left'];
 					$right_revision->$field['name'] = 'revision_id=' . $_GET['right'];
 				}
+=======
+>>>>>>> ab4a12506bdbc9ea65d30bc401f84658635eaa2b
 								
 			}
 		}
