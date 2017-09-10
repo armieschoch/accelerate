@@ -48,13 +48,16 @@ div.blog-post {
 }
 
 /*Case Studies*/
+.case-study {
+  clear:both;
+}
 div.main-content {
   margin: 0;
   flex: none;
 }
 aside.case-study-sidebar {
   float: left;
-  width: 400px;
+  width: 390px;
   text-align: left;
   word-spacing: 0.1em;
   letter-spacing: 0.02em;
@@ -68,7 +71,7 @@ aside.case-study-sidebar h6 {
   margin: 15px 0 0;
 }
 aside.case-study-sidebar h2 {
-  margin: 0;
+  /*margin: 100px 0 0;*/
   font-size: 30px;
 }
 aside.case-study-sidebar h5 {
@@ -80,11 +83,11 @@ aside.case-study-sidebar h5 {
 }
 div.case-study-images {
   float: left;
-  margin: 50px 50px 0;
+  margin: 50px 0 50px;
 }
 div.case-study-images img {
   display: block;
-  margin: 0 0 20px;
+  margin: 0 20px 0;
   border: 1px solid #dddddd;
   width: 500px;
   height: auto;
