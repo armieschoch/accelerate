@@ -25,6 +25,7 @@
 /*Blog Post styles*/
 div.blog-post {
   width: 50%;
+  /*float: left;*/
   margin-bottom: 2em;
 }
 
@@ -67,7 +68,7 @@ aside.case-study-sidebar h6 {
   margin: 15px 0 0;
 }
 aside.case-study-sidebar h2 {
-  margin: 100px 0 0;
+  margin: 0;
   font-size: 30px;
 }
 aside.case-study-sidebar h5 {
@@ -85,7 +86,7 @@ div.case-study-images img {
   display: block;
   margin: 0 0 20px;
   border: 1px solid #dddddd;
-  width: 600px`;
+  width: 500px;
   height: auto;
 }
 .featured-work .site-content {
