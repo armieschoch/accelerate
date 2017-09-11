@@ -112,3 +112,18 @@ li.individual-featured-work {
   max-width: 33%;
   display: inline-block;
 }
+/** Contact Form **//
+.nf-field-container {
+  clear: none;
+  float: left;
+  margin-right: 45px;
+  width: 100%;
+}
+.text-area-container {
+  clear: both;
+  width: 100%;
+}
+
+.email-container {
+  margin-right: 0;
+}
