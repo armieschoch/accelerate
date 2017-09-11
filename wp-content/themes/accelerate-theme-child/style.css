@@ -113,7 +113,7 @@ li.individual-featured-work {
   display: inline-block;
 }
 /** Contact Form **//
-.nf-field-container {
+#ninja_forms_required_items, .nf-field-container {
   clear: none;
   float: left;
   margin-right: 45px;

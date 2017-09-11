@@ -13,11 +13,36 @@ Normalize Ninja Forms fields with default structure
 .nf-response-msg {
   display: none; }
 
+#nf-field-3-container {
+  float: left;
+  width: 100%;
+}
+#nf-field-1-container {
+  float: left;
+margin-right: 20px;
+width: 48%;
+}
+
+#nf-field-2-container {
+  margin-right: 0;
+  width: 46%;
+  float: left;
+  margin-left: 20px;
+}
+
+#nf-field-4-wrap {
+  float: right;
+}
+.nf-form-content {
+  width: 80%;
+}
+
 .nf-field-container,
 #ninja_forms_required_items {
   clear: both;
   position: relative;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+}
   .nf-field-container::after,
   #ninja_forms_required_items::after {
     clear: both;
@@ -71,6 +96,15 @@ Normalize Ninja Forms fields with default structure
 
 .nf-after-field .nf-error-msg {
   margin-right: 10px; }
+
+  .text-area-container {
+    clear: both;
+    width: 100%;
+  }
+
+  .email-container {
+    margin-right: 0;
+  }
 
 /* ---------------------------------
 CHECKBOX FIELD
