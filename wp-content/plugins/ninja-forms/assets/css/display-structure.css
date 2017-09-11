@@ -13,6 +13,10 @@ Normalize Ninja Forms fields with default structure
 .nf-response-msg {
   display: none; }
 
+.nf-form-fields-required {
+  display: none;
+}
+
 #nf-field-3-container {
   float: left;
   width: 100%;
@@ -39,8 +43,8 @@ width: 48%;
 
 .nf-field-container,
 #ninja_forms_required_items {
-  clear: both;
-  position: relative;
+/**  clear: both;
+  position: relative;**/
   margin-bottom: 25px;
 }
   .nf-field-container::after,
@@ -333,7 +337,9 @@ body .pika-label {
   .nf-form-wrap .note-editor button[type=button] {
     padding: 4px;
     width: auto;
-    height: auto; }
+    height: auto;
+    background: #ce7911;
+  }
   .nf-form-wrap .note-editor .dropdown-toggle {
     position: relative;
     display: inline-block;
@@ -697,7 +703,8 @@ STANDARDIZE ALL FIELDS
   .field-wrap input[type="submit"],
   .field-wrap input[type="button"],
   .field-wrap button {
-    width: auto; }
+    width: auto;
+    background: #ce7911; }
 
 .nf-field-label {
   -ms-flex-order: 5;

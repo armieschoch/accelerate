@@ -113,17 +113,8 @@ li.individual-featured-work {
   display: inline-block;
 }
 /** Contact Form **//
-#ninja_forms_required_items, .nf-field-container {
-  clear: none;
-  float: left;
-  margin-right: 45px;
-  width: 100%;
-}
-.text-area-container {
-  clear: both;
-  width: 100%;
-}
-
-.email-container {
-  margin-right: 0;
+div.main-content p {
+  width: 80%;
+  text-align: left;
+  margin: 0 0 40px;
 }
