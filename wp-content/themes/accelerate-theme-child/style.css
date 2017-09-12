@@ -53,11 +53,10 @@ div.blog-post {
 }
 div.main-content {
   margin: 0;
-  flex: none;
 }
 aside.case-study-sidebar {
   float: left;
-  width: 390px;
+  width: 400px;
   text-align: left;
   word-spacing: 0.1em;
   letter-spacing: 0.02em;
@@ -83,13 +82,13 @@ aside.case-study-sidebar h5 {
 }
 div.case-study-images {
   float: left;
-  margin: 50px 0 50px;
+  margin: 50px 50px 0;
 }
 div.case-study-images img {
   display: block;
   margin: 0 20px 0;
   border: 1px solid #dddddd;
-  width: 500px;
+  width: 400px;
   height: auto;
 }
 .featured-work .site-content {
@@ -112,9 +111,72 @@ li.individual-featured-work {
   max-width: 33%;
   display: inline-block;
 }
-/** Contact Form **//
-div.main-content p {
-  width: 80%;
-  text-align: left;
-  margin: 0 0 40px;
+ul.homepage-featured-work {
+  list-style: none;
+}
+      /** ABOUT PAGE STYLES
+
+      **/
+.page-content {
+  margin: 0 auto;
+  max-width: 960px;
+}
+div.page-content h4, h5 {
+  text-transform: none;
+}
+p.about-serv {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 218px;
+}
+p.about-intro {
+  color: #fff;
+  padding: 0 350px;
+  text-align: center;
+  font-size: 26px;
+}
+div.about-content {
+  padding: 64px 20px 75px 306px;
+  text-align: justify;
+  font-size: 16px;
+  margin-top: 20px;
+}
+div.individual-image {
+  float: left;
+  margin: 50px 0 50px;
+}
+div.about-influencer-content {
+  padding: 7px 50px 15px 10px;
+  text-align: justify;
+  font-size: 16px;
+  margin-top: 20px;
+}
+div.individual-mapping-image {
+  float: right;
+  margin-left: 50px;
+}
+div.about-socialmedia-content {
+  padding: 25px 20px 50px 306px;
+  text-align: justify;
+  font-size: 16px;
+  margin-top: 20px;
+}
+div.individual-socialmedia-image {
+  float: left;
+  margin: 85px 0 50px;
+}
+div.about-designdev-content {
+  padding: 7px 10px 15px 10px;
+  text-align: justify;
+  font-size: 16px;
+  margin-top: 20px;
+}
+div.individual-designdev-image {
+  float: right;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.about-services .page-content h4 {
+  text-align: center;
+  margin-top: 0;
 }
