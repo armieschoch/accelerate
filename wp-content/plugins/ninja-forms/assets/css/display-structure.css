@@ -27,12 +27,12 @@ margin-right: 20px;
 width: 48%;
 }
 
-#nf-field-2-container {
+/*#nf-field-2-container {
   margin-right: 0;
   width: 46%;
   float: left;
   margin-left: 20px;
-}
+}*/
 
 #nf-field-4-wrap {
   float: right;
@@ -80,7 +80,8 @@ width: 48%;
     height: auto;
     vertical-align: inherit; }
   .nf-field-element textarea {
-    height: 200px; }
+    height: 200px;
+    border-color: #bfbfbf; }
 
 .nf-field-description p:last-child {
   margin: 0; }

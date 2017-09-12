@@ -17,15 +17,14 @@
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
     height: auto;
-    margin: 0 0 5em;
-    padding: 8em 0;
+    margin: 0 0 2em;
+    padding: 2em 0;
 	text-align: center;
 }
 
 /*Blog Post styles*/
 div.blog-post {
   width: 50%;
-  /*float: left;*/
   margin-bottom: 2em;
 }
 
@@ -47,7 +46,7 @@ div.blog-post {
   text-transform: uppercase;
 }
 
-/*Case Studies*/
+/******* CASE STUDIES *******/
 .case-study {
   clear:both;
 }
@@ -114,6 +113,7 @@ li.individual-featured-work {
 ul.homepage-featured-work {
   list-style: none;
 }
+
       /** ABOUT PAGE STYLES
 
       **/
@@ -127,56 +127,120 @@ div.page-content h4, h5 {
 p.about-serv {
     text-align: center;
     font-size: 16px;
-    margin: 0 218px;
+    max-width: 476px;
+    display: block;
 }
 p.about-intro {
   color: #fff;
-  padding: 0 350px;
+  padding: 0 60px;
   text-align: center;
   font-size: 26px;
+  max-width: 730px;
+  margin: 0 auto;
 }
 div.about-content {
-  padding: 64px 20px 75px 306px;
+  padding: 64px 25px 75px 306px;
   text-align: justify;
   font-size: 16px;
   margin-top: 20px;
 }
 div.individual-image {
   float: left;
-  margin: 50px 0 50px;
+  margin: 50px 25px 40px;
 }
 div.about-influencer-content {
-  padding: 7px 50px 15px 10px;
+  padding: 50px 300px 50px 25px;
   text-align: justify;
   font-size: 16px;
-  margin-top: 20px;
 }
 div.individual-mapping-image {
   float: right;
-  margin-left: 50px;
+  margin: 50px 25px 0;
 }
 div.about-socialmedia-content {
-  padding: 25px 20px 50px 306px;
+  padding: 25px 25px 50px 306px;
   text-align: justify;
   font-size: 16px;
   margin-top: 20px;
 }
 div.individual-socialmedia-image {
   float: left;
-  margin: 85px 0 50px;
+  margin: 86px 25px 0px;
 }
 div.about-designdev-content {
-  padding: 7px 10px 15px 10px;
+  padding: 50px 300px 50px 25px;
   text-align: justify;
   font-size: 16px;
-  margin-top: 20px;
 }
 div.individual-designdev-image {
   float: right;
-  margin-left: 50px;
-  margin-top: 50px;
+  margin: 78px 25px 0;
 }
 .about-services .page-content h4 {
   text-align: center;
-  margin-top: 0;
+  margin-top: 50px;
+}
+
+/******** MOBILE RESPONSIVE STYLES *******/
+
+@media screen and (max-width: 730px){
+
+  li.individual-featured-work {
+      padding: 20px 10px;
+      display: block;
+      max-width: 100%;
+  }
+
+  li.individual-featured-work h3 {
+    padding: 10px;
+    text-align: center;
+    text-transform: none;
+    font-weight: 300;
+}
+  .blog-post h3 {
+    margin: 0;
+    font-size: 1.125em;
+}
+  div.blog-post {
+    width: 100%;
+}
+
+  p.about-serv {
+    margin: 30px;
+}
+  p.about-intro {
+    font-size: 18px;
+}
+  div.about-content,
+  div.about-influencer-content,
+  div.about-socialmedia-content,
+  div.about-designdev-content {
+    padding: 0;
+    margin: 20px;
+}
+  div.individual-image,
+  div.individual-mapping-image,
+  div.individual-socialmedia-image,
+  div.individual-designdev-image {
+    max-width: 100px;
+    margin: 0 40% 0;
+}
+  div.page-content h4, h5 {
+    margin: 30px auto;
+    text-align: center;
+}
+.nf-form-content {
+     width: 100%!important;
+}
+
+#nf-field-1-container {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+}
+#nf-field-2-container {
+     width: 100%;
+     float: none;
+     margin-left: 0;
+}
 }
