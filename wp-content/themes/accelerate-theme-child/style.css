@@ -12,17 +12,67 @@
 
 
 @import url("../accelerate-theme/style.css");
+@import url('https://fonts.googleapis.com/css?family=Rancho');
 
-/* HOMEPAGE STYLES */
+/*********************************/
+/* Custom HomePage Styles
+/**************************************/
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
     height: auto;
     margin: 0 0 2em;
     padding: 2em 0;
+	  text-align: center;
+}
+#main {
+    margin-bottom: 1em;
+}
+/*********************************/
+/* Custom Page 404 Styles
+/**************************************/
+
+div.content-area {
+  background: url('img/page404.gif');
+  background-repeat: no-repeat;
+  background-position: center;
 	text-align: center;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+
+}
+.page-header, .site-content, #navigation, .site-footer {
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-/*Blog Post styles*/
+h1.page-title {
+  /* color: #fff; */
+  font-size: 50px;
+  font-family: 'Rancho', cursive;
+  line-height: 1em;
+  padding-top: 30px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+}
+/*p.page404-content {
+  color: #fff;
+}*/
+.searchform {
+  padding-top: 125px;
+  padding-bottom: 50px;
+  max-width: 730px;
+}
+#searchsubmit {
+  background: #5aa517;
+  padding: 10px;
+}
+/*********************************/
+/* Custom Blog Post Styles
+/**************************************/
+
 div.blog-post {
   width: 50%;
   margin-bottom: 2em;
@@ -45,8 +95,10 @@ div.blog-post {
   color: #45ac9d;
   text-transform: uppercase;
 }
+/*********************************/
+/* Custom Case Studies Styles
+/**************************************/
 
-/******* CASE STUDIES *******/
 .case-study {
   clear:both;
 }
@@ -55,7 +107,7 @@ div.main-content {
 }
 aside.case-study-sidebar {
   float: left;
-  width: 400px;
+  max-width: 400px;
   text-align: left;
   word-spacing: 0.1em;
   letter-spacing: 0.02em;
@@ -69,7 +121,6 @@ aside.case-study-sidebar h6 {
   margin: 15px 0 0;
 }
 aside.case-study-sidebar h2 {
-  /*margin: 100px 0 0;*/
   font-size: 30px;
 }
 aside.case-study-sidebar h5 {
@@ -113,13 +164,14 @@ li.individual-featured-work {
 ul.homepage-featured-work {
   list-style: none;
 }
+/*********************************/
+/* Custom About Page Styles
+/**************************************/
 
-      /** ABOUT PAGE STYLES
-
-      **/
 .page-content {
   margin: 0 auto;
   max-width: 960px;
+  margin-bottom: 100px;
 }
 div.page-content h4, h5 {
   text-transform: none;
@@ -180,8 +232,9 @@ div.individual-designdev-image {
   text-align: center;
   margin-top: 50px;
 }
-
-/******** MOBILE RESPONSIVE STYLES *******/
+/*********************************/
+/* Mobile Screens Styles
+/**************************************/
 
 @media screen and (max-width: 730px){
 
@@ -243,4 +296,5 @@ div.individual-designdev-image {
      float: none;
      margin-left: 0;
 }
+
 }

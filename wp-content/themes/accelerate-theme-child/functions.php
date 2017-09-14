@@ -45,3 +45,14 @@ function create_custom_post_types() {
 // Hook this custom post type function into the theme
 
 add_action( 'init', 'create_custom_post_types' );
+
+/*********************************/
+/* Change Search Button Text
+/**************************************/
+
+add_filter('get_search_form', 'my_search_form_text');
+
+function my_search_form_text($text) {
+     $text = str_replace('value=""', 'value="Search"', $text); //set as value the text you want
+     return $text;
+}
